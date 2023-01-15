@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgba(237, 134, 16, 0.211);
+   
+}
+/* nav style */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+/* nav name and logo */
+
+.logo{
+    font-weight: 750;
+    font-size: 35px;
+}
+.nav-list ul{
+    display: flex;
+    gap: 75px;
+    
+}
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #363535dc;;
+}
+/* banner */
+.company-details{
+    display: flex;
+    row-gap: 33px;
+    justify-content: center;
+    text-align: center;
+}
+.detail-box{
+    width: 862px;
+    margin-top: 102px;
+    
+}
+.detail-box h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #141313d1;
+}
+.details-box p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #686767f1;
+    margin: 33px 0px 30px 0px;
+}
+/* explore work -btn */
+.work-btn{
+    padding: 20px 25px;
+    
+    border: none;
+    background: #f1860bf4;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.work-btn a{
+    text-decoration: none;
+    color: #fffffff5;
+}
+/* banner-image */
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
+.banner-img img{
+    margin: 50px 0px 50px 0px;
+}
