@@ -117,3 +117,118 @@ header{
     color: #676666e2;
     margin-bottom: 10px;
 }
+/* facility-details */
+.facilitys{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.convenience{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 145px;
+    width: 1442px;
+}
+
+.facility-details h1{
+    border-left: 5px solid #FF900E;
+    width: 470px;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 23px;
+}
+.facility-details p{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 25px 0px 30px 0px;
+}
+
+.facility{
+    width: 585px;
+    height: 170px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.facility h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 33px 0px 0px 30px;
+}
+.facility p{
+    padding: 10px 0px 0px 30px;
+    width: 514px;
+    height: 111px;
+}
+.experience-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.explore-experience-btn{
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.explore-experience-btn h1{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
+
+.explore-experience-btn p{
+    font-weight: 500;
+font-size: 25px;
+color: #FFFFFF;
+}
+.btn-content{
+    padding: 46px;
+}
+.btn-content a{
+    text-decoration: none;
+}
+ /* facts and container */
+.achievement-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+}
+.company-facts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1442px;
+}
+.facts h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts p{
+    margin-top: 24px;
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.achievement{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.achievement-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
