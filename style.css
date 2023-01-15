@@ -249,3 +249,146 @@ footer{
     color: #424242;
     padding: 40px 410px;
 }
+
+
+ /* responsive website */
+
+
+@media screen and (max-width: 576px){
+    .nav-list ul{
+        flex-direction: column;
+    }
+    .nav-list{
+        margin-top: 10px;
+    }
+    .nav{
+        flex-direction: column;
+
+    }
+    .logo{
+        font-weight: 800;
+        font-size: 20px; 
+    }
+
+    
+    .nav-list ul{
+        padding-left: 0px;
+        gap: 20px;
+        
+    }
+    .nav-list ul li a{
+        display: flex;
+        justify-content: center;
+    }
+    .detail-box{
+        margin-top: 30px;
+    }
+    .detail-box h1{
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+
+    }
+    .detail-box p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        text-align: center;
+        margin: 33px 10px 30px 10px;
+    }
+    .work-btn{
+       
+       justify-content: center;
+    }
+    .banner-img img{
+        width: 300px;
+        height: auto;
+    }
+    .quick-list-container h1 {
+
+        font-size: 30px;
+
+    }
+    .quick-list-container {
+        width: auto;
+        margin-left: 17px;
+    }
+    .quick-list-img {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list{
+        flex-direction: column-reverse
+    }
+    .convenience{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .facility{
+        width: auto;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .facility-details h1{
+        font-size: 30px;
+        width: 300px;
+    }
+   .facility-details p{
+        margin-left: 10px;
+   }
+   .facility p{
+        width: 300px;
+
+    }
+    .facility h2 {
+        padding: 20px 0px 0px 30px;
+
+    }
+    .facilitys-banner img{
+        width: 390px;
+    }
+    .explore-experience-btn h1 {
+        font-size: 40px;
+
+    }
+    .btn-content {
+        padding: 25px;
+    }
+    
+   
+    .achievement {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px
+    }
+    .achievement-container{
+        justify-content: space-around
+    }
+    .facts h1{
+        margin-left: 10px;
+    }
+    .facts p{
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .sponsor{
+        margin-top: 90px;
+
+    }
+    .sponsor-company {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer p {
+        text-align: center;
+        padding: 20px 0px;
+    }
+}
