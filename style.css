@@ -79,3 +79,41 @@ header{
 .banner-img img{
     margin: 50px 0px 50px 0px;
 }
+/* quick-list */
+
+.quick-list{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    
+}
+.quick-list-img{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2,1fr);
+}
+.quick-list-container{
+    width: 540px;
+}
+.quick-list-container h1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #676666e2;
+    margin-bottom: 10px;
+}
+.quick-list-container h1 strong{
+    color: #0f0f0fee;
+}
+.quick-list-container h1 span{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.quick-list-container p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #676666e2;
+    margin-bottom: 10px;
+}
