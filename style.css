@@ -232,3 +232,20 @@ color: #FFFFFF;
     border-radius: 8px;
     border: 1px solid #FF900E;
 }
+ /* footer style */
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 110px 0px;
+}
+
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 40px 410px;
+}
